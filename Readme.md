@@ -92,7 +92,7 @@ Once you have generated the files, you need to perform the following configurati
 3. Delete all the lines of code where you see a **Verify**.  
 ![ScreenShot](img/deleteVerify.png)
 4. Replace all the **INSUrlSessionDelegate** interfaces  
-```[BaseType (typeof(DSBSecureConnectionforSDK))] ```
+```[BaseType (typeof(DSBSecureConnectionforSDK))] ```  
 ```interface EventSenderController : INSUrlSessionDelegate ```
 for the class **NSUrlSessionDelegate**.
  ![ScreenShot](img/ClassDelegate.png)
