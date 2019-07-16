@@ -127,9 +127,9 @@ To link the wrapper to the iOS project, follow the steps below:
 3. Click on *Browse* and select the corresponding .dll file, found in the path mentioned above.
 4. Then, right-click on the iOS project and click on **Options**.
 5. In the left-side panel of the *Options* menu, go to **Build > iOS Build** and do the following:
-&nbsp; &nbsp; &nbsp; * Click on the checkbox **enable devices-specifics builds**
-&nbsp; &nbsp; &nbsp; * Add the following line in the **additional mtouch arguments** field :
-&nbsp; &nbsp; &nbsp; &nbsp; ```--framework:[DSBFrameworkPath].framework```
+* Click on the checkbox **enable devices-specifics builds**
+* Add the following line in the **additional mtouch arguments** field :
+```--framework:[DSBFrameworkPath].framework```
 
 > The previous configuration has to be completed for each build configuration, either *release* or *debug*
 
