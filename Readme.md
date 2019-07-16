@@ -89,8 +89,8 @@ Once you have generated the files, you need to perform the following configurati
 
 1. Copy the content of the Sharpie generated file **ApiDefinitions.cs** to the project file **ApiDefinitions.cs**.
 2. Remove the  **dsb_protector_sdk_ios** dependency.
-3. Delete all the lines of code where you see a **Verify**.  
-![ScreenShot](img/deleteVerify.png)
+3. Delete all the lines of code where you see a **Verify**. 
+
 4. Replace all the **INSUrlSessionDelegate** interfaces  
 ```
 [BaseType (typeof(DSBSecureConnectionforSDK))] 
