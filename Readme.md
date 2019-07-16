@@ -95,9 +95,7 @@ Once you have generated the files, you need to perform the following configurati
 ![ScreenShot](img/InterfaceDelegate.png)
  for the class **NSUrlSessionDelegate**.
  ![ScreenShot](img/ClassDelegate.png)
-6. There are several **Constants** interfaces in this file, unify them under one interface by copying their content to the selected interface.
-
-![ScreenShot](img/unifyConstants.png)  
+6. There are several **Constants** interfaces in this file, unify them under one interface by copying their content to the selected interface. ![ScreenShot](img/unifyConstants.png)  
 
 ## Android
 
